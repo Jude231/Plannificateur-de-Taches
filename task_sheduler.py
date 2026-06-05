@@ -83,7 +83,7 @@ class TaskSchedulerApp:
         quit_btn = ttk.Button(action_frame, text="Quitter", command=self.root.quit)
         quit_btn.pack(side="right")
 
-    # --- Logique de l'application ---
+    
     
     def load_tasks(self):
         """Lit les vraies tâches cron de l'utilisateur actuel."""
